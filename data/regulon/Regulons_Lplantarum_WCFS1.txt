@@ -1,0 +1,846 @@
+# TF - NagR: lp_0563
+329408	lp_0226	nagB
+
+331323	lp_2531	nagE
+
+331658	lp_2969	nagE
+
+329694	lp_0562	nagA
+329695	lp_0563	nagR
+
+329921	lp_0822	glmS
+
+
+# TF - Lp_3221: lp_3221
+331850	lp_3220	agl4
+331849	lp_3219	scrT
+
+331851	lp_3221	lp_3221
+
+
+# TF - PurR: lp_0466
+331473	lp_2729	purE
+331472	lp_2728	purK
+331471	lp_2727	purC
+331470	lp_2726	purS
+331469	lp_2725	purQ
+331468	lp_2724	purL
+331467	lp_2723	purF
+331466	lp_2722	purM
+331465	lp_2721	purN
+331464	lp_2720	purH
+331463	lp_2719	purD
+
+331888	lp_3269	purB
+
+331889	lp_3270	purA
+331890	lp_3271	guaC
+
+329941	lp_0848	pbuG
+
+329614	lp_0466	purR
+329615	lp_0467	glmU
+
+
+# TF - CcpA: lp_2256
+330967	lp_2095	fruR
+330968	lp_2096	fruB
+330969	lp_2097	fruA
+
+329993	lp_0913	coaA
+329994	lp_0914	guaA
+
+332146	lp_3589	spxB
+
+329639	lp_0498	rbsP
+329640	lp_0499	LAF_1741
+329641	lp_0500	rbsK
+
+329706	lp_0575	manL
+329707	lp_0576	manM
+329708	lp_0577	manN
+329714	lp_0583	manO
+
+332155	lp_3598	fucR
+
+332180	lp_3627	nplT
+332179	lp_3626	melB2
+332178	lp_3625	malR3
+
+329365	lp_0175	malX
+329366	lp_0176	malC
+329367	lp_0177	malD
+329368	lp_0178	malA
+
+332095	lp_3533	malT2
+332096	lp_3534	agl3
+
+332210	lp_3660	rbsK
+332209	lp_3659	rbsD
+332208	lp_3658	rbsU
+
+329535	lp_0370	glpK
+329536	lp_0371	glpD
+329537	lp_0372	glpF
+
+329591	lp_0439	gmuC
+329592	lp_0440	bglA
+
+331495	lp_2757	nplT
+
+331299	lp_2502	pgi
+
+332014	lp_3436	glpF2
+
+331397	lp_2629	spxB
+
+329419	lp_0242	ndk
+
+329410	lp_0230	mtlA
+329411	lp_0231	mtlR
+329412	lp_0232	mtlF
+329413	lp_0233	mtlD
+
+330435	lp_1468	sufC
+330436	lp_1469	sufD
+330437	lp_1470	sufS
+330438	lp_1471	sufA
+330439	lp_1472	sufB
+
+332092	lp_3529	licT
+
+332153	lp_3596	rhaY
+332152	lp_3595	rhaB
+332151	lp_3594	rhaU
+332150	lp_3593	rhaA
+332149	lp_3592	rhaD
+
+331867	lp_3240	treP
+
+329438	lp_0262	treR
+329439	lp_0263	treA
+329440	lp_0264	treP
+
+332000	lp_3418	pck
+
+329986	lp_0904	licT
+329987	lp_0905	bglP
+329988	lp_0906	bglH
+
+329345	lp_0152	lhv_0924
+
+331791	lp_3133	glclP
+331790	lp_3132	bglA2
+331789	lp_3131	glcT
+
+331859	lp_3229	glclP
+
+331724	lp_3051	dhaT
+
+331725	lp_3054	adhX
+
+331101	lp_2256	ccpA
+
+331516	lp_2781	pts20B
+331515	lp_2780	pts20A
+331514	lp_2778	bglA
+331513	lp_2777	bglA
+
+331755	lp_3092	gabD
+
+331102	lp_2258	pepQ
+
+330660	lp_1729	malT
+330661	lp_1730	mapA
+330662	lp_1731	galM
+
+330285	lp_1273	ptsH
+330286	lp_1274	ptsI
+
+329376	lp_0187	scrB
+329377	lp_0188	scrR
+329378	lp_0189	agl4
+
+332055	lp_3489	yghZ
+
+332125	lp_3566	LVIS_0439
+
+329375	lp_0185	scrA
+
+331657	lp_2968	ydgI
+
+329273	lp_0060	yxjF
+329274	lp_0061	adc
+329275	lp_0062	ydgI
+
+331017	lp_2154	pdhA
+331016	lp_2153	pdhB
+331015	lp_2152	pdhC
+331014	lp_2151	pdhD
+
+332049	lp_3483	lacL
+332050	lp_3484	lacM
+
+332207	lp_3657	sorD
+332206	lp_3656	srlM
+332205	lp_3655	srlR
+332204	lp_3654	srlA
+332203	lp_3653	srlE
+332202	lp_3652	srlB
+
+332177	lp_3623	sorD
+332176	lp_3622	srlM
+332175	lp_3621	srlR
+332174	lp_3620	srlA
+332173	lp_3619	srlE
+332172	lp_3618	srlB
+
+332036	lp_3469	lacZ
+332035	lp_3468	lacS
+
+329872	lp_0764	pgm
+
+332094	lp_3531	malR3
+
+329942	lp_0849	spxB
+
+329358	lp_0168	dhaK
+329359	lp_0169	dhaL
+329360	lp_0170	dhaM
+329361	lp_0171	glpF2
+
+332195	lp_3644	msmX
+332194	lp_3643	msmY
+332193	lp_3642	msmZ
+
+332117	lp_3557	araE
+332116	lp_3556	araB
+332115	lp_3555	araD
+332114	lp_3554	araA
+
+329381	lp_0193	nplT
+
+331689	lp_3011	bglB
+331688	lp_3010	LBA0884
+
+331333	lp_2544	hcaD
+
+
+# TF - AraR: lp_3558
+332117	lp_3557	araE
+332116	lp_3556	araK
+332115	lp_3555	araD
+332114	lp_3554	araA
+
+332118	lp_3558	araR
+
+
+# RNA - L10_leader
+329747	lp_0621	rplJ
+329748	lp_0622	rplL
+
+
+# RNA - TPP
+329402	lp_0219	ykoE
+329401	lp_0218	ykoD
+329400	lp_0217	ykoC
+
+329312	lp_0113	thiM
+329313	lp_0114	thiD
+329314	lp_0115	thiE
+329315	lp_0116	cytX
+
+
+# RNA - FMN
+330790	lp_1887	ribU
+
+
+# RNA - PyrR
+331454	lp_2704	pyrR
+
+331195	lp_2371	pyrP
+
+331453	lp_2703	pyrB
+331452	lp_2702	pyrC
+331451	lp_2701	carA
+331450	lp_2700	carB
+331449	lp_2699	pyrD
+331448	lp_2698	pyrF
+331447	lp_2697	pyrE
+
+330706	lp_1782	pyrR
+330707	lp_1783	carA
+
+
+# RNA - L13_leader
+330121	lp_1077	rplM
+330122	lp_1078	rpsI
+
+
+# RNA - L19_leader
+330588	lp_1640	rplS
+
+
+# RNA - L20_leader
+330479	lp_1515	infC
+330480	lp_1516	rpmI
+330481	lp_1517	rplT
+
+
+# RNA - L21_leader
+330543	lp_1592	rplU
+330544	lp_1593	ysxB
+330545	lp_1594	rpmA
+
+
+# RNA - Lysine
+330068	lp_1008	lysP
+
+
+# RNA - PreQ1
+329669	lp_0533	queT
+
+331551	lp_2825	iunH
+331550	lp_2824	qrtT
+
+
+# RNA - Purine
+331935	lp_3334	adeC
+
+331456	lp_2710	pbuX
+
+
+# TF - Rex: lp_0725
+331724	lp_3051	dhaT
+
+332022	lp_3449	noxE
+
+332212	lp_3662	adhE
+
+
+# RNA - glmS
+329921	lp_0822	glmS
+
+
+# RNA - ykoK
+330953	lp_2077	lp_2077
+330952	lp_2076	lp_2076
+330951	lp_2075	lp_2075
+
+
+# RNA - yybP-ykoY
+329699	lp_0567	atcL
+
+
+# RNA - T-box(Ala)
+331121	lp_2277	alaS
+
+
+# RNA - T-box(Asn)
+330029	lp_0957	asnA
+330028	lp_0956	asnS
+
+
+# RNA - T-box(Asp)
+330873	lp_1981	hisS
+330872	lp_1980	aspS
+
+
+# RNA - T-box(Arg)
+330373	lp_1391	argS
+
+
+# TF - MntR: lp_0996
+330136	lp_1095	mntC
+330137	lp_1096	mntB
+330138	lp_1097	mntA
+
+331675	lp_2992	mntH
+
+
+# RNA - T-box(Gly)
+330858	lp_1965	glyQ
+330857	lp_1964	glyS
+
+
+# RNA - T-box(His)
+331346	lp_2561	hisZ
+331345	lp_2560	hisG
+331344	lp_2559	hisD
+331343	lp_2558	hisB
+331342	lp_2557	hisH
+331341	lp_2556	hisA
+331340	lp_2554	hisF
+331339	lp_2553	hisI
+331338	lp_2552	hisE
+331337	lp_2551	hisC
+
+
+# RNA - T-box(Ile)
+332034	lp_3466	brnQ
+
+331042	lp_2187	ileS
+
+
+# RNA - T-box(Leu)
+330316	lp_1316	leuS
+
+
+# RNA - T-box(Lys)
+332230	lp_3686	oppA
+
+
+# RNA - T-box(Met)
+330363	lp_1375	metE
+330362	lp_1374	metF
+
+331179	lp_2352	metN
+331178	lp_2351	metP
+331177	lp_2350	metQ
+
+331328	lp_2537	metA
+331327	lp_2536	metY
+331326	lp_2535	hom
+
+331401	lp_2634	metI
+
+331898	lp_3283	metE2
+
+330674	lp_1744	metN
+330675	lp_1745	metP
+330676	lp_1746	metQ
+
+329343	lp_0150	mtsA
+329342	lp_0149	mtsB
+329341	lp_0148	mtsC
+
+
+# RNA - T-box(Phe)
+330515	lp_1558	pheS
+330516	lp_1559	pheT
+
+
+# RNA - T-box(Ser)
+330071	lp_1012	serS
+
+329642	lp_0501	serS
+
+
+# RNA - T-box(Thr)
+330478	lp_1514	thrS
+
+
+# RNA - T-box(Trp)
+330594	lp_1652	trpE
+330595	lp_1653	trpG
+330596	lp_1654	trpD
+330597	lp_1655	trpC
+330598	lp_1656	trpF
+330599	lp_1657	trpB
+330600	lp_1658	trpA
+
+329587	lp_0434	trpS
+
+329299	lp_0092	oppA
+
+
+# RNA - T-box(Tyr)
+331538	lp_2807	tyrS
+
+331937	lp_3338	tyrT
+
+329380	lp_0192	tyrT
+
+
+# RNA - T-box(Val)
+329557	lp_0399	brnQ
+
+331154	lp_2322	valS
+
+
+# TF - NiaR: lp_2770
+331507	lp_2770	niaR
+
+331508	lp_2771	pncB
+
+
+# TF - GlnR: lp_1580
+331556	lp_2830	ansB
+
+329903	lp_0802	glnP
+329904	lp_0803	glnQ
+
+329516	lp_0349	nrgA
+
+330534	lp_1580	glnR
+330535	lp_1581	glnA
+
+
+# TF - CopR: lp_3365
+331958	lp_3365	copR
+
+331957	lp_3363	copB
+
+
+# TF - ScrR: lp_0188
+329375	lp_0185	scrA
+329374	lp_0184	scrK
+
+329376	lp_0187	scrB
+329377	lp_0188	scrR
+329378	lp_0189	agl4
+
+
+# TF - MalR: lp_0172
+329365	lp_0175	malX
+329366	lp_0176	malC
+329367	lp_0177	malD
+329368	lp_0178	malA
+
+329362	lp_0172	malR
+329363	lp_0173	mdxR
+329364	lp_0174	agl1
+
+330660	lp_1729	malT
+330661	lp_1730	mapA
+330662	lp_1731	galM
+
+
+# TF - DeoR: lp_0495
+329638	lp_0497	deoC
+329639	lp_0498	lp_0498
+329640	lp_0499	LAF_1741
+329641	lp_0500	rbsK1
+
+
+# TF - MurR: lp_3521
+332088	lp_3524	murX
+332087	lp_3523	murQ
+332086	lp_3522	murP
+332085	lp_3521	murR
+332084	lp_3520	murO
+
+
+# TF - CggR: lp_0788
+329891	lp_0788	cggR
+329892	lp_0789	gap
+329893	lp_0790	pgk
+329894	lp_0791	tpiA
+329895	lp_0792	enoA1
+
+
+# TF - PflR: lp_2597
+331373	lp_2596	pflA
+
+331374	lp_2597	pflR
+
+331375	lp_2598	pflB
+
+
+# TF - NrtR: lp_2515
+331310	lp_2514	niaP
+
+
+# TF - PadR: lp_3079
+332215	lp_3665	padC
+
+332214	lp_3664	padR
+
+
+# TF - PerR: lp_3247
+329521	lp_0355	cueO
+
+331955	lp_3360	pcl2
+331954	lp_3359	pcl1
+
+331333	lp_2544	npr
+
+331855	lp_3225	ybbL
+331854	lp_3224	ybbM
+
+331930	lp_3327	cadA
+
+331873	lp_3247	perR
+
+
+# TF - TreR: lp_0262
+329438	lp_0262	treR
+329439	lp_0263	treA
+329440	lp_0264	treP
+
+
+# TF - RbsR: lp_3661
+332210	lp_3660	rbsK
+332209	lp_3659	rbsD
+332208	lp_3658	rbsU
+
+
+# TF - ArgR: lp_1411, lp_1604
+330983	lp_2111	artPQ
+330982	lp_2110	artM
+
+329881	lp_0775	argG
+329882	lp_0776	argH
+
+329664	lp_0528	argC
+329665	lp_0529	argJ
+329666	lp_0530	argB
+329667	lp_0531	argD
+329668	lp_0532	argF
+
+329663	lp_0527	carA
+329662	lp_0526	carB
+
+
+# TF - GalR: lp_3488, lp_3479
+332049	lp_3483	lacL
+332050	lp_3484	lacM
+
+332052	lp_3486	lacS2
+332051	lp_3485	melA
+
+332048	lp_3482	galK
+332047	lp_3481	galE
+332046	lp_3480	galT
+332045	lp_3479	galR
+
+
+# TF - HrcA: lp_2029
+330912	lp_2029	hrcA
+330911	lp_2028	grpE
+330910	lp_2027	dnaK
+330909	lp_2026	dnaJ
+
+329840	lp_0727	groS
+329841	lp_0728	groL
+
+329327	lp_0129	hsp
+
+
+# TF - Zur: lp_0868
+331915	lp_3302	znuA
+
+329612	lp_0463	znuC
+329613	lp_0464	znuB
+
+331696	lp_3018	znuA
+
+331064	lp_2216	rpsN2
+
+330020	lp_0947	lp_0947
+
+329957	lp_0868	zur
+
+
+# TF - NrdR: lp_1511
+331632	lp_2932	nrdD
+331631	lp_2931	nrdG
+
+329813	lp_0694	nrdH
+329812	lp_0693	nrdE
+329811	lp_0692	nrdF
+
+329435	lp_0259	pnuN
+
+330070	lp_1011	dgk1
+
+330327	lp_1329	dgk2
+
+
+# TF - MtaR: lp_1857
+330763	lp_1856	yxjH
+
+330764	lp_1857	mtaR
+
+
+# TF - CcpB: lp_2602
+331379	lp_2602	ccpB
+331378	lp_2601	ywbB
+
+
+# TF - LacR: lp_3470
+332037	lp_3470	lacR
+
+332036	lp_3469	lacZ
+332035	lp_3468	lacS
+
+
+# TF - MdxR: lp_0173
+331495	lp_2757	nplT
+
+329365	lp_0175	malX
+329366	lp_0176	malC
+329367	lp_0177	malD
+329368	lp_0178	malA
+
+
+# TF - MalR3: lp_3531, lp_3625
+331495	lp_2757	nplT
+
+332094	lp_3531	malR3
+
+332095	lp_3533	malT2
+332096	lp_3534	agl
+
+332180	lp_3627	nplT
+332179	lp_3626	malT2
+332178	lp_3625	malR3
+
+
+# TF - GutR: lp_3622, lp_3656
+332207	lp_3657	gutF
+332206	lp_3656	gutR
+332205	lp_3655	gutM
+332204	lp_3654	gutC
+332203	lp_3653	gutB
+332202	lp_3652	gutA
+
+332177	lp_3623	gutF
+332176	lp_3622	gutR
+332175	lp_3621	gutM
+332174	lp_3620	gutC
+332173	lp_3619	gutB
+332172	lp_3618	gutA
+
+
+# TF - MtlR: lp_0231
+329410	lp_0230	mtlA
+329411	lp_0231	mtlR
+329412	lp_0232	mtlF
+329413	lp_0233	mtlD
+
+
+# TF - FruR: lp_2095
+330967	lp_2095	fruR
+330968	lp_2096	fruB
+330969	lp_2097	fruA
+
+
+# TF - CtsR: lp_1018
+330072	lp_1018	ctsR
+330073	lp_1019	clpC
+
+330284	lp_1269	clpE
+
+330912	lp_2029	hrcA
+330911	lp_2028	grpE
+330910	lp_2027	dnaK
+330909	lp_2026	dnaJ
+
+329889	lp_0786	clpP
+
+330803	lp_1903	clpB
+
+
+# TF - LexA: lp_2063
+329878	lp_0772	uvrB
+329879	lp_0773	uvrA
+
+331445	lp_2694	addB
+331444	lp_2693	addA
+
+330944	lp_2063	lexA
+
+330800	lp_1899	dnaE
+
+331137	lp_2301	recA
+
+330751	lp_1840	parE
+330750	lp_1839	parC
+
+331701	lp_3023	umuC
+331700	lp_3022	lp_3022
+
+329480	lp_0308	srmB
+329479	lp_0307	lp_0307
+329478	lp_0306	lp_0306
+
+331124	lp_2280	dinP
+331123	lp_2279	nrnA
+331122	lp_2278	rheB
+
+
+# TF - BirA: lp_0854, lp_0337
+329506	lp_0336	bioY
+329507	lp_0337	birA
+329508	lp_0338	yemC
+
+329946	lp_0854	birA
+
+
+# TF - Lp_2742: lp_2742
+331481	lp_2739	lp_2739
+331482	lp_2740	lp_2740
+331483	lp_2741	lp_2741
+331484	lp_2742	lp_2742
+331485	lp_2743	lp_2743
+331486	lp_2744	lp_2744
+
+
+# TF - YtrA: lp_0325, lp_1959
+330852	lp_1959	ytrA
+330851	lp_1958	ytrB
+330850	lp_1957	null
+330849	lp_1956	null
+
+
+# TF - YwzG: lp_3216
+331846	lp_3216	ywzG
+331847	lp_3217	lp_3217
+331848	lp_3218	lp_3218
+
+
+# TF - GntR1: lp_1157
+330269	lp_1251	gntZ
+330268	lp_1250	gntK
+330267	lp_1249	gntP
+
+
+# TF - MleR: lp_1116, lp_1115
+330154	lp_1116	mleR
+
+330155	lp_1118	mleS
+330156	lp_1119	mleP
+
+
+# TF - FlpA: lp_3444, lp_1442
+332013	lp_3435	cadA
+
+332018	lp_3442	copZ
+332017	lp_3441	dps
+
+330413	lp_1442	flpA
+
+332019	lp_3444	flpA
+
+
+# TF - NihR: lp_0103
+329307	lp_0104	PF09861
+329308	lp_0105	PF00731
+
+329306	lp_0103	nihR
+329305	lp_0102	nikM
+329304	lp_0101	nikQ
+329303	lp_0100	nikO
+
+
+# TF - FlrR: lp_3097
+331760	lp_3097	flrR
+
+331761	lp_3098	flr
+
+
+# RNA - SMK_box_riboswitch
+330307	lp_1301	metK
+
+
+# TF - YhcF: lp_2615
+331388	lp_2615	yhcF
+331387	lp_2614	yhcG
+331386	lp_2613	yhcI
+
+
+# TF - YdfD/YisV: lp_1407
+330388	lp_1409	yisU
+
+
