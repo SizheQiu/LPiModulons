@@ -16,10 +16,10 @@ def read_regprecise(file):
         if len(line)<1:
             continue
         elif '#' in line:
-            RF = ((line.split('-')[1]).split(':')[0]).strip()
+            RF = ((line.split(' - ')[1]).split(':')[0]).strip()
             regulon[ RF ] = []
         else:
-            g = str(line.split('\t')[2]).strip()
+            g = str(line.split('\t')[1]).strip()
             regulon[RF].append(g)
     return regulon 
 
@@ -59,6 +59,7 @@ def complement(inseq):
         
     complement=''.join(clist)
     return complement
+
 
 
 
