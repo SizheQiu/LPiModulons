@@ -3,7 +3,9 @@ import pandas as pd
 import pickle
 from scipy import special, stats
 from statsmodels.stats.multitest import fdrcorrection
-
+from Bio import SeqIO
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
 
 
 def read_regprecise(file):
@@ -59,6 +61,110 @@ def complement(inseq):
         
     complement=''.join(clist)
     return complement
+
+
+
+
+def get_gene_region(gene_id, gb_features, ref_features):
+    
+    left_gb,left_ref = np.inf,np.inf
+    right_gb,right_ref = -np.inf, -np.inf
+    if gene_id in list(gb_features['locus_tag']):
+        left_gb, right_gb, strand = gb_features[gb_features['locus_tag']==gene_id].values[0][0:3]
+    if gene_id in list(ref_features['locus_tag']):
+        left_ref, right_ref, strand = ref_features[ref_features['locus_tag']==gene_id].values[0][0:3]
+        
+    return (min(left_gb,left_ref), max(right_gb,right_ref), strand)
+    
+    
+
+def get_upstream(seq_path, site, N_up, strand):
+    sequence = SeqIO.read(seq_path, "fasta").seq
+    site = site - 1
+    if strand == '+':
+        left = site - N_up
+        right = site
+        s = str(sequence)[left:right]
+    else:
+        left = site+1
+        right = site + N_up+1
+        s = complement(revstrand( str(sequence)[left:right] ))
+    return s
+        
+def check_overlap(left,right, gb_features, ref_features):
+    '''
+    Check genes that overlap with the region( left, right ).
+    gb_features, ref_features: feature tables form genbank and refseq.
+    '''
+    output_genes = []
+    temp_gb = gb_features[ ( gb_features['start'] < right ) &  ( gb_features['end'] > left )].reset_index()
+    temp_ref = ref_features[ ( ref_features['start'] < right ) &  ( ref_features['end'] > left )].reset_index()
+    for i in range(len(temp_gb.index)):
+        if 'pWCFS' in str(temp_gb['locus_tag'][i]):
+            continue
+        output_genes.append( temp_gb['locus_tag'][i] )
+    for i in range(len(temp_ref.index)):
+        if 'pWCFS' in str(temp_ref['locus_tag'][i]):
+            continue
+        output_genes.append( temp_ref['locus_tag'][i] )
+    output_genes = list(set(output_genes))
+    return output_genes
+        
+
+# def find_operon_start( site, strand, gb_features, ref_features ):
+#     '''
+#     find the first gene in the operon,
+#     assuming that intergenetic space is < 200bp in the same operon.
+#     '''
+#     N_up = 200
+#     if strand == '+':
+#         overlap = check_overlap(site-N_up, site, gb_features, ref_features)
+#     else:
+#         overlap = check_overlap(site, site+N_up, gb_features, ref_features)
+#     while len(overlap) > 0:
+#         gene_id = overlap[0]
+#         left, right, strand = get_gene_region(gene_id, gb_features, ref_features)
+#         if strand == '+':
+#             overlap = check_overlap(left-N_up, left, gb_features, ref_features)
+#         else:
+#             overlap = check_overlap(right, right+N_up, gb_features, ref_features)
+            
+#     return (gene_id, left, right, strand)
+    
+    
+    
+def get_im_promoters(im, seq_path, gb_features, ref_features):
+    '''
+    Get promoter sequences (200bp upstream to translation start site) 
+    for genes in the I-modulon.
+    '''
+    promoters = {}
+    N_up = 200
+    for gene in im:
+        left, right, strand = get_gene_region(gene, gb_features, ref_features)
+        
+        if strand == '+':
+            overlap = check_overlap(left-N_up, left, gb_features, ref_features)
+        else:
+            overlap = check_overlap(right, right+N_up, gb_features, ref_features)
+        
+        if len(overlap) < 1:
+            if strand == '+':
+                promoters[gene] = get_upstream(seq_path, left, N_up, strand)
+            else:
+                promoters[gene] = get_upstream(seq_path, right, N_up, strand)
+        elif overlap[0] in im:
+            continue
+#         else:
+#             if strand == '+':
+#                 gene_id, start_left, start_right, strand = find_operon_start( left, strand, gb_features, ref_features )
+#                 promoters[gene_id] = get_upstream(seq_path, start_left, N_up, strand)
+#             else:
+#                 gene_id, start_left, start_right, strand = find_operon_start( right, strand, gb_features, ref_features )
+#                 promoters[gene_id] = get_upstream(seq_path, start_right, N_up, strand)
+                
+    return promoters
+             
 
 
 
