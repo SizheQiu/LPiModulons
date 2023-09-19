@@ -1,46 +1,46 @@
-﻿IM,Regulator annotation,Method
-0,_,_
-1,Fur/LexA,motif
-2,_,motif
-4,CcpA+AraR,enrichment
-5,_,_
-6,_,motif
-7,MurR,enrichment
-8,_,motif
-9,_,motif
-10,_,motif
-11,_,_
-12,_,_
-14,CcpA+GutR,enrichment
-15,CopR,enrichment
-16,GntR,motif
-17,_,motif
-18,_,_
-19,Translation,_
-20,PurR,enrichment
-21,_,motif
-23,GalR/AraR,enrichment
-25,_,motif
-26,ArgR/MleR,enrichment
-27,_,motif
-28,_,_
-30,_,_
-31,McbR,motif
-32,_,motif
-33,_,motif
-34,_,_
-35,_,motif
-36,PyrR,enrichment
-38,_,_
-39,_,_
-40,_,_
-41,_,motif
-42,CcpA,enrichment
-43,_,motif
-44,_,_
-45,CcpB/PflR,enrichment
-46,_,motif
-47,MalR+MdxR,enrichment
-48,MntR,enrichment
-49,TreR,enrichment
-52,_,_
+﻿IM,Regulator annotation,Method,Function
+0,_,_,Prophage
+1,Fur/LexA,motif,Stress
+2,Fur,motif,_
+4,CcpA+AraR,enrichment,Carbohydrate metabolism
+5,_,_,Prophage
+6,_,_,Prophage
+7,MurR,enrichment,Carbohydrate metabolism
+8,NagC,motif,Prophage
+9,CysB,motif,Transcription
+10,AgrA,motif,_
+11,_,_,Prophage
+12,_,_,Inorganic ion metabolism
+14,CcpA+GutR,enrichment,Carbohydrate metabolism
+15,CopR,enrichment,Inorganic ion metabolism
+16,GntR,motif,Carbohydrate metabolism/Cell wall biogenesis
+17,_,_,_
+18,_,_,_
+19,_,_,Translation
+20,PurR,enrichment,Nucleotide metabolism
+21,_,_,Coenzyme metabolism
+23,GalR/AraR,enrichment,Carbohydrate metabolism
+25,MarR/PhoP,motif,Prophage
+26,ArgR/MleR,enrichment,Amino Acid metabolism
+27,_,_,Prophage
+28,_,_,_
+30,_,_,Carbohydrate metabolism
+31,McbR,motif,Amino Acid metabolism
+32,DasR,motif,_
+33,_,_,_
+34,_,_,_
+35,GalR,motif,Carbohydrate metabolism
+36,PyrR,enrichment,Nucleotide metabolism
+38,_,_,_
+39,_,_,Lipid metabolism
+40,_,_,Cell wall biogenesis
+41,PhhR,motif,Amino Acid metabolism
+42,CcpA,enrichment,Energy metabolism
+43,_,_,Cell wall biogenesis
+44,_,_,_
+45,CcpB/PflR,enrichment,Transcription
+46,_,_,_
+47,MalR+MdxR,enrichment,Carbohydrate metabolism
+48,MntR,enrichment,Inorganic ion metabolism
+49,TreR,enrichment,Transcription
+52,_,_,_
