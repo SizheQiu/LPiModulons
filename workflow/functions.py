@@ -188,6 +188,21 @@ def compute_threshold(S,k,cutoff=550):
         return max(comp_genes)+.05
     else:
         return np.mean([ordered_genes.iloc[i],ordered_genes.iloc[i-1]])
+    
+    
+def get_seqfeature( gene, table ):
+    temp_pd = table[table['locus_tag']==gene].reset_index()
+    output = {'start':int(temp_pd['start'][0]),'end':int(temp_pd['end'][0]),
+            'strand':str(temp_pd['strand'][0]),'label': str(temp_pd['symbol'][0])}
+    if str(temp_pd['strand'][0]) == '+':
+        output['strand'] = +1
+    else:
+        output['strand'] = -1
+    if str(temp_pd['symbol'][0]) == gene:
+        output['label'] = gene
+    else:
+        output['label'] = str(temp_pd['symbol'][0])+'('+gene+')'
+    return output
 
 
 
