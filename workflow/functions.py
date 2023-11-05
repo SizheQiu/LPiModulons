@@ -1,3 +1,7 @@
+'''
+Helper functions used in annotation and analysis of ICA results.
+'''
+
 import numpy as np
 import pandas as pd
 import pickle
@@ -9,6 +13,9 @@ from Bio.SeqRecord import SeqRecord
 
 
 def read_regprecise(file):
+    '''
+    Read in Regulons.txt from RegPrecise, and convert it to a dictionary.
+    '''
     regulon = {}
     ffile = open(file, "rt")
     lines = ffile.readlines()
@@ -26,12 +33,18 @@ def read_regprecise(file):
     return regulon 
 
 def load_pickle(filename):
+    '''
+    Load pickle from the [filename] path.
+    '''
     temp = None
     with open(filename,'rb') as f:
         temp = pickle.load(f)
     return temp
 
 def dump_pickle(file, filename):
+    '''
+    Save [file] as a pickle to the [filename] path.
+    '''
     with open(filename, 'wb') as f:
         pickle.dump( file , f)
         
@@ -44,6 +57,9 @@ def get_rpkm( numReads, gene_length, totalNumReads ):
 
 
 def revstrand(inseq):
+    '''
+    Reverse the order of a string sequence.
+    '''
     outseq=inseq[::-1]
     return outseq
 
@@ -66,7 +82,9 @@ def complement(inseq):
 
 
 def get_gene_region(gene_id, gb_features, ref_features):
-    
+    '''
+    Get left, right and strand of a gene from both Genbank and Refseq genome feature tables.
+    '''
     left_gb,left_ref = np.inf,np.inf
     right_gb,right_ref = -np.inf, -np.inf
     if gene_id in list(gb_features['locus_tag']):
@@ -79,6 +97,9 @@ def get_gene_region(gene_id, gb_features, ref_features):
     
 
 def get_upstream(seq_path, site, N_up, strand):
+    '''
+    Get sequence string [N_up] bps upstream to a [site].
+    '''
     sequence = SeqIO.read(seq_path, "fasta").seq
     site = site - 1
     if strand == '+':
@@ -191,6 +212,9 @@ def compute_threshold(S,k,cutoff=550):
     
     
 def get_seqfeature( gene, table ):
+    '''
+    Get start, end, strand and label for a gene from the genome feature table.
+    '''
     temp_pd = table[table['locus_tag']==gene].reset_index()
     output = {'start':int(temp_pd['start'][0]),'end':int(temp_pd['end'][0]),
             'strand':str(temp_pd['strand'][0]),'label': str(temp_pd['symbol'][0])}

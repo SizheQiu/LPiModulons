@@ -21,4 +21,4 @@ Each iModulon (IM) is a group of genes that represents an independently modulate
 7. Seaborn: https://seaborn.pydata.org/
 
 ## Citation
-
+Qiu, S., Huang, Y., Liang, S., Zeng, H., Yang, A. (2023, January 1). Systematic elucidation of independently modulated genes in Lactobacillus plantarum reveals a trade-off between secondary and primary metabolism. bioRxiv. https://doi.org/10.1101/2023.11.03.565434 

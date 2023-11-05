@@ -1,5 +1,5 @@
 """
-Codes from pymodulon, but modified.
+Codes from PyModulon (https://github.com/SBRG/pymodulon), but modified.
 """
 
 import itertools
