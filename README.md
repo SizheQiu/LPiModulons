@@ -1,5 +1,5 @@
 # LPiModulons
-Independent component analysis (ICA) of Lactobacillus plantarum transcriptomes
+Independent component analysis (ICA) of Lactiplantibacillus plantarum transcriptomes
 
 ## What is iModulon ?
 Each iModulon (IM) is a group of genes that represents an independently modulated signal. To learn more about iModulons, how they are computed, and what they can tell you, please visit https://imodulondb.org/about.html.
@@ -21,4 +21,4 @@ Each iModulon (IM) is a group of genes that represents an independently modulate
 7. Seaborn: https://seaborn.pydata.org/
 
 ## Citation
-Qiu, S., Huang, Y., Liang, S., Zeng, H., Yang, A. (2023, January 1). Systematic elucidation of independently modulated genes in Lactobacillus plantarum reveals a trade-off between secondary and primary metabolism. bioRxiv. https://doi.org/10.1101/2023.11.03.565434 
+Qiu, S., Huang, Y., Liang, S., Zeng, H., & Yang, A. (2024). Systematic elucidation of independently modulated genes in Lactiplantibacillus plantarum reveals a trade‐off between secondary and primary metabolism. Microbial Biotechnology, 17(2). https://doi.org/10.1111/1751-7915.14425
